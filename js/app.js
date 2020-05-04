@@ -12,7 +12,7 @@ const subscriberCont = document.getElementById('subscriber');
 const arrows = document.getElementsByClassName('arrow-cont')[0];
 
 // (optional) add server code here
-var SERVER_BASE_URL = 'herokuapp.com';
+var SERVER_BASE_URL = '';
 fetch(SERVER_BASE_URL + '/room/myroom').then(function (res) {
   return res.json()
 }).then(function (res) {
