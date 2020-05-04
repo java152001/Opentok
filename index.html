@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> OpenTok Getting Started </title>
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://kit.fontawesome.com/dba208b893.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="startingDialog">
+        <div class="startingDialog__spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+        <div class="startingDialog__loadingText">
+            Joining Class Now...
+        </div>
+        <div class="startingDialog__container">
+            <img class="startingDialog__logo" src="assets/logo.svg" alt="logo" />
+            <button class="startingDialog__button" id="startSession">Start Session</button>
+        </div>
+    </div>
+    <div id="videos">
+        <div class="arrow-cont">
+            <div class="back-arrow"><i class="fas fa-chevron-left"></i></div>
+            <div class="forward-arrow"><i class="fas fa-chevron-right"></i></div>
+        </div>
+        <div id="subscriber"></div>
+        <div id="publisher"></div>
+    </div>
+    <div id="testButton">
+        <button id="breakoutButton">Go To Breakout</button>
+        <button id="largeGroupButton">Back To Main</button>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
